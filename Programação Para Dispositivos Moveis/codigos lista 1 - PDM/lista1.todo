@@ -1,0 +1,19 @@
+Regras:
+    Atividade 1
+    ✔ Crie uma classe pessoa atributos nome, data de nascimento, idade e altura. @started(21-01-22 07:58) @done(21-01-22 08:10) @lasted(12m33s)
+    ✔ Crie um construtor principal apenas com os atributos nome e altura. @started(21-01-22 08:03) @done(21-01-22 08:10) @lasted(7m30s)
+    ✔ Sobrescreva o método toString para exibir uma mensagem no seguinte formato:“<nome> (<data_nascimento>, <altura>)” @started(21-01-22 08:11) @done(21-01-22 08:22) @lasted(11m19s)
+    ✔ Crie um método para calcular a idade. @started(21-01-22 08:11) @done(21-01-22 09:48) @lasted(1h37m30s)
+    ✔ Crie um construtor secundário os atributos (nome, data de nascimento, altura) que inicialize a idade com base na data atual e a data de nascimento informada. @started(21-01-22 08:23) @done(21-01-22 08:25) @lasted(2m52s)
+    ✔ Altere o método setter de idade para privado. @done(21-01-22 09:49)
+    Atividade 2
+    ✔ Crie uma classe Agenda que pode armazenar 10 pessoas em um array. Implemente os seguintes métodos: @started(21-01-22 10:39) @done(21-01-22 13:04) @lasted(2h25m53s)
+    ✔ void armazenaPessoa(Pessoa p); @started(21-01-22 10:40) @done(21-01-22 13:04) @lasted(2h24m55s)
+    ✔ void removePessoa(String nome); @started(21-01-22 10:40) @done(21-01-22 13:04) @lasted(2h24m56s)
+    ✔ Pessoa buscaPessoa(String nome); @started(21-01-22 12:42) @done(21-01-22 13:04) @lasted(22m57s)
+    ✔ void printAgenda(); @started(21-01-22 12:42) @done(21-01-22 13:04) @lasted(22m58s)
+    ✔ void printPessoa(int index); @started(21-01-22 12:42) @done(21-01-22 13:04) @lasted(22m59s)
+    Atividade 3
+    ✔ Faça uma outra implementação da classe agenda (AgendaList) onde um ArrayList deve ser usado para armazenar as Pessoas. @started(21-01-22 12:42) @done(21-01-22 12:42) @lasted(43s)
+    Atividade 4
+    ✔ Implemente uma classe Funcionario que estende Pessoa. Funcionário tem o atributo salario que deve ser informado no construtor principal. @done(21-01-22 10:42)
